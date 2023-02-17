@@ -1,0 +1,65 @@
+{
+    "goldsd3": {
+        "name": "David Goldschmidt",
+        "email": "goldsd3@rpi.edu",
+        "phone": "518-276-2819",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "cutleb": {
+        "name": "Barbara Cutler",
+        "email": "cutleb@rpi.edu",
+        "phone": "518-276-3274",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "milana2": {
+        "name": "Ana Milanova",
+        "email": "milana2@rpi.edu",
+        "phone": "518-276-6887",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "holzbh2": {
+        "name": "Jasmine Plum",
+        "email": "holzbh2@rpi.edu",
+        "phone": "518-276-6716",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "turnew2": {
+        "name": "Wes Turner",
+        "email": "turnew2@rpi.edu",
+        "phone": "518-276-8184",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "aksoyb3": {
+        "name": "Billur Aksoy",
+        "email": "aksoyb3@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "chaddi": {
+        "name": "Ian Chadd",
+        "email": "chaddi@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "ghosav": {
+        "name": "Vivek Ghosal",
+        "email": "ghosav@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "simonk": {
+        "name": "Ken Simons",
+        "email": "simonk@rpi.edu",
+        "phone": "518-276-3296",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    }
+}

@@ -1,0 +1,282 @@
+{
+    "goldsd3": {
+        "name": "David Goldschmidt",
+        "email": "goldsd3@rpi.edu",
+        "phone": "518-276-2819",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "cutleb": {
+        "name": "Barbara Cutler",
+        "email": "cutleb@rpi.edu",
+        "phone": "518-276-3274",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "milana2": {
+        "name": "Ana Milanova",
+        "email": "milana2@rpi.edu",
+        "phone": "518-276-6887",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "holzbh2": {
+        "name": "Jasmine Plum",
+        "email": "holzbh2@rpi.edu",
+        "phone": "518-276-6716",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "turnew2": {
+        "name": "Wes Turner",
+        "email": "turnew2@rpi.edu",
+        "phone": "518-276-8184",
+        "department": "Computer Science",
+        "school": "School of Science"
+    },
+    "aksoyb3": {
+        "name": "Billur Aksoy",
+        "email": "aksoyb3@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "chaddi": {
+        "name": "Ian Chadd",
+        "email": "chaddi@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "ghosav": {
+        "name": "Vivek Ghosal",
+        "email": "ghosav@rpi.edu",
+        "phone": "",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "simonk": {
+        "name": "Ken Simons",
+        "email": "simonk@rpi.edu",
+        "phone": "518-276-3296",
+        "department": "Economics",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "yuraa": {
+        "name": "Akina Yura",
+        "email": "yuraa@rpi.edu",
+        "phone": "518-276-4778",
+        "department": "Arts",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "changb3": {
+        "name": "Benjamin Chang",
+        "email": "changb3@rpi.edu",
+        "phone": "518-276-2366",
+        "department": "GSAS",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "milleb": {
+        "name": "Branda Miller",
+        "email": "milleb@rpi.edu",
+        "phone": "518-276-4783",
+        "department": "Arts",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "fishec5": {
+        "name": "Christopher Fisher-Lochhead",
+        "email": "fishec5@rpi.edu",
+        "phone": "518-276-4778",
+        "department": "Arts",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "presse2": {
+        "name": "Elizabeth Press",
+        "email": "presse2@rpi.edu",
+        "phone": "518-276-4778",
+        "department": "Arts",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "moreyj": {
+        "name": "Jamecyn Morey",
+        "email": "moreyj@rpi.edu",
+        "phone": "518-276-4778",
+        "department": "Arts",
+        "school": "School of Humanities, Arts and  Social Sciences (HASS)"
+    },
+    "bystrc": {
+        "name": "Chris Bystroff",
+        "email": "bystrc@rpi.edu",
+        "phone": "518-276-3185",
+        "department": "Biological Sciences",
+        "school": "School of Science"
+    },
+    "huntd6": {
+        "name": "Darrin Hunt",
+        "email": "huntd6@rpi.edu",
+        "phone": "518-276-6446",
+        "department": "Biological Sciences",
+        "school": "School of Science"
+    },
+    "koffam": {
+        "name": "Mattheos Koffas",
+        "email": "koffam@rpi.edu",
+        "phone": "518-276-2220",
+        "department": "Chemical and Biological Engineering",
+        "school": "School of Engineering"
+    },
+    "bonocr": {
+        "name": "Richard Bonocora",
+        "email": "bonocr@rpi.edu",
+        "phone": "518-276-6446",
+        "department": "Biological Sciences",
+        "school": "School of Science"
+    },
+    "kapila": {
+        "name": "Ashwani Kapila",
+        "email": "kapila@rpi.edu",
+        "phone": "518-276-6894",
+        "department": "Mathematical Sciences",
+        "school": "School of Science"
+    },
+    "johnsk28": {
+        "name": "Kristin Johnson",
+        "email": "johnsk28@rpi.edu",
+        "phone": "518-276-6625",
+        "department": "Chemistry and Chemical Biology",
+        "school": "School of Science"
+    },
+    "cadies": {
+        "name": "Sarah Cadieux",
+        "email": "cadies@rpi.edu",
+        "phone": "518-276-6474",
+        "department": "Earth and Environmental Sciences",
+        "school": "School of Science"
+    },
+    "schall": {
+        "name": "Morgan Schaller",
+        "email": "schall@rpi.edu",
+        "phone": "518-276-3358",
+        "department": "Earth and Environmental Sciences",
+        "school": "School of Science"
+    },
+    "wagnes3": {
+        "name": "Sasha Wagner",
+        "email": "wagnes3@rpi.edu",
+        "phone": "518-276-3075",
+        "department": "Earth and Environmental Sciences",
+        "school": "School of Science"
+    },
+    "roecks": {
+        "name": "Steven Roecker",
+        "email": "roecks@rpi.edu",
+        "phone": "518-276-6773",
+        "department": "Earth and Environmental Sciences",
+        "school": "School of Science"
+    },
+    "martic13": {
+        "name": "Charles Martin",
+        "email": "martic13@rpi.edu",
+        "phone": "518-276-6454",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "wetzel": {
+        "name": "Christian Wetzel",
+        "email": "wetzel@rpi.edu",
+        "phone": "518-276-3755",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "westd2": {
+        "name": "Damien West",
+        "email": "westd2@rpi.edu",
+        "phone": "518-276-6310",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "cioleg": {
+        "name": "Glenn Ciolek",
+        "email": "cioleg@rpi.edu",
+        "phone": "518-276-8077",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "wangg": {
+        "name": "Ge Wang",
+        "email": "wangg6@rpi.edu",
+        "phone": "518-276-3726",
+        "department": "Biomedical Engineering",
+        "school": "School of Engineering"
+    },
+    "korniss": {
+        "name": "Gyorgy Korniss",
+        "email": "korniss@rpi.edu",
+        "phone": "518-276-2555",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "wilkei": {
+        "name": "Ingrid Wilke",
+        "email": "wilkei@rpi.edu",
+        "phone": "518-276-6318",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "giedtj": {
+        "name": "Joel Giedt",
+        "email": "giedtj@rpi.edu",
+        "phone": "518-276-6455",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "michaj2": {
+        "name": "Joseph Michael",
+        "email": "michaj2@rpi.edu",
+        "phone": "518-276-8413",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "ngomm": {
+        "name": "Moussa Ngom",
+        "email": "ngomm@rpi.edu",
+        "phone": "518-276-3978",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "narenn2": {
+        "name": "Nadarajah Narendran",
+        "email": "narenn2@rpi.edu",
+        "phone": "518-687-7100",
+        "department": "Lighting Research Center",
+        "school": "School of Architecture"
+    },
+    "persap": {
+        "name": "Peter Persans",
+        "email": "persap@rpi.edu",
+        "phone": "518-276-2934",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    },
+    "sundar": {
+        "name": "Ravishankar Sundararaman",
+        "email": "sundar@rpi.edu",
+        "phone": "518-276-6757",
+        "department": "Materials Science and Engineering",
+        "school": "School of Engineering"
+    },
+    "huangz3": {
+        "name": "Rena Huang",
+        "email": "huangz3@rpi.edu",
+        "phone": "518-276-6086",
+        "department": "Electrical, Computer, and Systems Engineering",
+        "school": "School of Engineering"
+    },
+    "sylin": {
+        "name": "Shawn Yu Lin",
+        "email": "sylin@rpi.edu",
+        "phone": "518-276-2978",
+        "department": "Physics, Applied Physics & Astronomy",
+        "school": "School of Science"
+    }
+}

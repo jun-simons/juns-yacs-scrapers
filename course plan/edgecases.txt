@@ -1,0 +1,95 @@
+Edge cases notes:
+
+leftpad 40 element course blocks are always additional information that corresponds
+with the previous block.
+
+
+The following pattern arises:"Y3S1":
+[
+    "The Arch Summer Semester*",
+    "Cognitive Science Elective Credit hours: 4 ",
+    "Free Elective Credit Hours: 4",
+    "PSYC 2310 - Research Methods and Statistics I Credit Hours: 4"
+],
+"Y3S2": [
+    "Fall OR Spring",
+    "Free Elective Credit Hours: 4"
+],
+"Y3S3": [
+    "Fall",
+    "COGS 4210 - Cognitive Modeling Credit Hours: 4",
+    "COGS 4410 - Programming for Cognitive Science and Artificial Intelligence Credit Hours: 4",
+    "CSCI 4150 - Introduction to Artificial Intelligence Credit Hours: 4",
+    "PSYC 4350 - Mathematical Methods in Psychological Science Credit Hours: 4"
+],
+"Y3S4": [
+    "Fall",
+    "COGS 4330 - Introduction to Cognitive Neuroscience Credit Hours: 4",
+    "PSYC 4370 - Cognitive Psychology Credit Hours: 4"
+],
+"Y3S5": [
+    "Fall",
+    "PHIL 4130 - Philosophy of Science Credit Hours: 4",
+    "PHIL 4480 - Metaphysics and Consciousness Credit Hours: 4"
+],
+
+Semesters 3 through 5 data should be included with 2
+As such, leftpad 40 element data must be combined in table with prior section.
+This requires an additional check.
+
+Notable other examples of this case:
+envsci is NO LONGER issue due to restructuring (not taken from text file)
+This proves to be a notable benefit compared to the previous version.
+
+In cases where the ERROR MESSAGE output is recieved, this means none of the expected output
+formats match what was recieved.  I belive this is a leftover effect of the previously described bug.
+
+As such, solving for this situation should be done in a way that is DYNAMIC and applies to as many edge cases as possible.
+To do so, this should rely on patterns within the divs to avoid needing alternate checks for different situations.
+It seems as though these patterns are consistent.
+
+Note: in many of these cases, the error lies in the copying of the div BEFORE the problem region.
+Take Computer Systems Engineering as an example:
+
+"Y1S2": [
+    "Spring",
+    "ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1",
+    "ENGR 1400 - Engineering Communications Credit Hours: 1"
+],
+"Y1S3": [
+    "Spring",
+    "ECSE 2610 - Computer Components and Operations Credit Hours: 4",
+    "CSCI 1200 - Data Structures Credit Hours: 4",
+    "MATH 1020 - Calculus II Credit Hours: 4",
+    "PHYS 1100 - Physics I Credit Hours: 4"
+Evidently, the "S3" region comes AFTER S2, but what is labeled as S3 should really be S2.
+The prior data is an option between CAD and communications.
+
+However, this follows the SAME PATTERN as before.
+The add-on information is held within the "leftpad-40" region, while the 
+desired semester information is entirely within the acalog-core.
+
+
+Description of scraper script: 
+
+The script starts by importing the necessary libraries, including BeautifulSoup, unicodedata, requests, and json. The base_url variable contains the URL of the RPI catalog website,
+and the html_text variable contains the HTML code of the specific page that the script will scrape. The BeautifulSoup library is then used to parse the HTML code, creating a soup
+object that represents the structured data of the webpage.
+
+The script then searches for all the programs listed on the webpage by finding the unordered list (ul) with the class 'program-list' and extracting all the list items (li) within it. 
+A dictionary, output_list, is initialized to store the output data.
+
+The script then loops through each program and extracts its name from the link text using the find() method. 
+It creates 'program_dict' to store the program's details and opens the link to the program page to extract more data. The HTML code of the program page is then parsed 
+using BeautifulSoup to extract relevant data.
+
+The section variable is used to locate the relevant section of the program page that contains the course information. 
+If this section does not contain any course information, the script skips it and moves on to the next program. 
+Otherwise, the script extracts the program years, as indicated by the div tags with the class "acalog-core". 
+It then loops through each year of courses and extracts the course information for each semester. 
+
+Information about specific courses is extracted CONDITIONALLY: eg, if statements are used to check for expected patterns.
+Thus, ADJUSTEMENTS will be made by adding, editing, or removing CONDITIONS when altering in the future.
+
+The program_dict is updated with the course information for each semester, and it is appended to the output_list. 
+The entire output_list is then saved as a JSON file using the json.dump() method, which writes the data to a file.

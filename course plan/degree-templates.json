@@ -395,35 +395,19 @@
         "Y3": "Third Year",
         "Y3S1": [
             "The Arch Summer Semester*",
-            "HASS Core Elective Credit Hours: 4"
+            "HASS Core Elective Credit Hours: 4",
+            [
+                "Fall Away TrackAdvanced Laboratory Requirement Credit Hours: 6\n",
+                "Spring Away TrackBiology Elective Credit Hours: 4\n"
+            ]
         ],
         "Y3S2": [
             "Fall or Spring",
-            "Advanced Laboratory Requirement Credit Hours: 6",
-            "Elective Credit Hours: 2",
-            "BIOL 4760 - Molecular Biochemistry I Credit Hours: 4"
-        ],
-        "Y3S3": [
-            "Fall or Spring",
-            "Biology Elective Credit Hours: 4",
-            "Elective Credit Hours: 4",
-            "BIOL 4200 - Biostatistics Credit Hours: 4"
-        ],
-        "Y3S4": [
-            "Fall or Spring",
-            "HASS Core Elective Credit Hours: 4"
-        ],
-        "Y3S5": [
-            "Fall",
-            "Biology Elective Credit Hours: 4",
-            "Elective Credit Hours: 4",
-            "BIOL 4200 - Biostatistics Credit Hours: 4"
-        ],
-        "Y3S6": [
-            "Fall",
-            "Advanced Laboratory Requirement Credit Hours: 6",
-            "Elective Credit Hours: 2",
-            "BIOL 4760 - Molecular Biochemistry I Credit Hours: 4"
+            "HASS Core Elective Credit Hours: 4",
+            [
+                "Fall Away TrackBiology Elective Credit Hours: 4\n",
+                "Spring Away TrackAdvanced Laboratory Requirement Credit Hours: 6\n"
+            ]
         ],
         "Y4": "Fourth Year",
         "Y4S1": [
@@ -702,15 +686,12 @@
         "Y4S1": [
             "Fall",
             "MGMT 4170 - Data Resource Management Credit Hours: ",
-            "MGMT 4190 - Introduction to Machine Learning Applications Credit Hours: 4"
+            "MGMT 4190 - Introduction to Machine Learning Applications Credit Hours: 4",
+            [
+                "Choose one of the following two courses:ECON 4280 - Econometric Methods for Big Data Credit Hours: 4ECON 4570 - Econometrics Credit Hours: 4Elective Credit Hours: 4"
+            ]
         ],
         "Y4S2": [
-            "Spring",
-            "ECON 4280 - Econometric Methods for Big Data Credit Hours: 4",
-            "ECON 4570 - Econometrics Credit Hours: 4",
-            "Elective Credit Hours: 4"
-        ],
-        "Y4S3": [
             "Spring",
             "MGMT 4870 - Strategy and Policy Credit Hours: 4",
             "Capstone Credit Hours: 4 ",
@@ -1173,24 +1154,12 @@
         ],
         "Y3S2": [
             "Fall OR Spring",
-            "Free Elective Credit Hours: 4"
-        ],
-        "Y3S3": [
-            "Fall",
-            "COGS 4210 - Cognitive Modeling Credit Hours: 4",
-            "COGS 4410 - Programming for Cognitive Science and Artificial Intelligence Credit Hours: 4",
-            "CSCI 4150 - Introduction to Artificial Intelligence Credit Hours: 4",
-            "PSYC 4350 - Mathematical Methods in Psychological Science Credit Hours: 4"
-        ],
-        "Y3S4": [
-            "Fall",
-            "COGS 4330 - Introduction to Cognitive Neuroscience Credit Hours: 4",
-            "PSYC 4370 - Cognitive Psychology Credit Hours: 4"
-        ],
-        "Y3S5": [
-            "Fall",
-            "PHIL 4130 - Philosophy of Science Credit Hours: 4",
-            "PHIL 4480 - Metaphysics and Consciousness Credit Hours: 4"
+            "Free Elective Credit Hours: 4",
+            [
+                "Choose One:COGS 4210 - Cognitive Modeling Credit Hours: 4COGS 4410 - Programming for Cognitive Science and Artificial Intelligence Credit Hours: 4CSCI 4150 - Introduction to Artificial Intelligence Credit Hours: 4PSYC 4350 - Mathematical Methods in Psychological Science Credit Hours: 4",
+                "Choose One:COGS 4330 - Introduction to Cognitive Neuroscience Credit Hours: 4PSYC 4370 - Cognitive Psychology Credit Hours: 4",
+                "Choose One:PHIL 4130 - Philosophy of Science Credit Hours: 4PHIL 4480 - Metaphysics and Consciousness Credit Hours: 4"
+            ]
         ],
         "Y4": "Fourth Year",
         "Y4S1": [
@@ -1204,9 +1173,11 @@
             "Spring",
             "Free Elective Credit Hours: 4",
             "Free Elective Credit Hours: 4",
-            "Free Elective Credit Hours: 4"
-        ],
-        "Error": "text"
+            "Free Elective Credit Hours: 4",
+            [
+                "Choose One:Approved project/seminar course Credit Hours: 4\n\nOr\nCOGS 4990 - Undergraduate Thesis Credit Hours: 3-6[Intended to be taken for 4 credit hours]"
+            ]
+        ]
     },
     {
         "Major": "Communication, Media, and Design",
@@ -1215,15 +1186,12 @@
             "Fall",
             "HASS Core Elective Credit Hours: 4",
             "Science Core Elective Credit Hours: 4",
-            "Math Elective Credit Hours: 4"
+            "Math Elective Credit Hours: 4",
+            [
+                "CMD Gateway CourseChoose One:Substitution available if a student adds COMD major after their first year. Consult with HASS Student Services or COMD advisor on appropriate substitutions.\nIHSS 1560 - Media and Society Credit Hours: 4IHSS 1562 - Life in Color Credit Hours: 4IHSS 1492 - Language and Power Credit Hours: 4"
+            ]
         ],
         "Y1S2": [
-            "Spring",
-            "IHSS 1560 - Media and Society Credit Hours: 4",
-            "IHSS 1562 - Life in Color Credit Hours: 4",
-            "IHSS 1492 - Language and Power Credit Hours: 4"
-        ],
-        "Y1S3": [
             "Spring",
             "HASS Core Elective Credit Hours: 4",
             "Science Core Elective Credit Hours: 4",
@@ -1283,14 +1251,12 @@
             "HASS Core Elective Credit Hours: 4",
             "ECSE 1010 - Introduction to Electrical, Computer, and Systems Engineering Credit Hours: 4",
             "CSCI 1100 - Computer Science I Credit Hours: 4",
-            "MATH 1010 - Calculus I Credit Hours: 4"
+            "MATH 1010 - Calculus I Credit Hours: 4",
+            [
+                "Select one of:ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1orENGR 1400 - Engineering Communications Credit Hours: 1"
+            ]
         ],
         "Y1S2": [
-            "Spring",
-            "ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1",
-            "ENGR 1400 - Engineering Communications Credit Hours: 1"
-        ],
-        "Y1S3": [
             "Spring",
             "ECSE 2610 - Computer Components and Operations Credit Hours: 4",
             "CSCI 1200 - Data Structures Credit Hours: 4",
@@ -1622,12 +1588,10 @@
             "Science Elective Credit Hours: 4",
             "ENGR 2350 - Embedded Control Credit Hours: 4",
             "MATH 1020 - Calculus II Credit Hours: 4",
-            "PHYS 1100 - Physics I Credit Hours: 4"
-        ],
-        "Y1S3": [
-            "Fall",
-            "ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1",
-            "ENGR 1400 - Engineering Communications Credit Hours: 1"
+            "PHYS 1100 - Physics I Credit Hours: 4",
+            [
+                "Select one of:ENGR 1200 - Engineering Graphics and CAD Credit Hours: 1orENGR 1400 - Engineering Communications Credit Hours: 1"
+            ]
         ],
         "Y2": "Second Year",
         "Y2S1": [
@@ -1895,20 +1859,11 @@
             "ERTH 4500 - Earth’s Climate: Past, Present, and Future Credit Hours: 4"
         ],
         "Y3S3": [
-            "Arch-Exempt Students"
-        ],
-        "Y3S4": [
-            "Fall",
-            "IENV 4700 - One Mile of the Hudson River Credit Hours: 4",
-            "Track Course or Free Elective  Credit Hours: 4",
-            "HASS Core Electives  Credit Hours: 8"
-        ],
-        "Y3S5": [
-            "Fall",
-            "ERTH 4500 - Earth’s Climate: Past, Present, and Future Credit Hours: 4",
-            "BIOL 4880 - Global Environmental Change Credit Hours: 4",
-            "Track Course or Free Elective  Credit Hours: 4",
-            "HASS Core Electives  Credit Hours: 4"
+            "Arch-Exempt Students",
+            [
+                "FallIENV 4700 - One Mile of the Hudson River Credit Hours: 4Track Course or Free Elective  Credit Hours: 4HASS Core Electives  Credit Hours: 8",
+                "SpringERTH 4500 - Earth’s Climate: Past, Present, and Future Credit Hours: 4BIOL 4880 - Global Environmental Change Credit Hours: 4Track Course or Free Elective  Credit Hours: 4HASS Core Electives  Credit Hours: 4"
+            ]
         ],
         "Y4": "Fourth Year",
         "Y4S1": [
@@ -2228,13 +2183,10 @@
             "Fall OR Spring",
             "Technical Track Course #3 ",
             "HASS Elective Credit Hours: 4 ",
-            "ITWS 4310 - Managing IT Resources Credit Hours: 4"
-        ],
-        "Y3S3": [
-            "Fall",
-            "CSCI 4380 - Database Systems Credit Hours: 4",
-            "ITWS 4250 - Database Applications and Systems (DBAS) Credit Hours: 3",
-            "MGMT 4170 - Data Resource Management Credit Hours: "
+            "ITWS 4310 - Managing IT Resources Credit Hours: 4",
+            [
+                "ITWS Technology Elective (one of):CSCI 4380 - Database Systems Credit Hours: 4ITWS 4250 - Database Applications and Systems (DBAS) Credit Hours: 3MGMT 4170 - Data Resource Management Credit Hours: "
+            ]
         ],
         "Y4": "Fourth Year",
         "Y4S1": [
@@ -2614,19 +2566,12 @@
             "HASS Core Elective Credit Hours: 4",
             "Science Core Elective Credit Hours: 4",
             "MATH 1010 - Calculus I Credit Hours: 4",
-            "MATH 1500 - Calculus for Architecture, Management, and HASS Credit Hours: 4"
+            "MATH 1500 - Calculus for Architecture, Management, and HASS Credit Hours: 4",
+            [
+                "Introductory Course: choose oneIHSS 1140 - Minds and Machines Credit Hours: 4PHIL 1110 - Introduction to Philosophy Credit Hours: 4IHSS 1235 - Are Humans Rational? Credit Hours: 4IHSS 1150 - The Genome and You Credit Hours: 4IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4IHSS 1165 - Great Ideas in Philosophy Credit Hours: 4IHSS 1130 - Philosophy, Technology, & the Human Future Credit Hours: 4"
+            ]
         ],
         "Y1S2": [
-            "Spring",
-            "IHSS 1140 - Minds and Machines Credit Hours: 4",
-            "PHIL 1110 - Introduction to Philosophy Credit Hours: 4",
-            "IHSS 1235 - Are Humans Rational? Credit Hours: 4",
-            "IHSS 1150 - The Genome and You Credit Hours: 4",
-            "IHSS 1160 - Science and Scientific Misconduct Credit Hours: 4",
-            "IHSS 1165 - Great Ideas in Philosophy Credit Hours: 4",
-            "IHSS 1130 - Philosophy, Technology, & the Human Future Credit Hours: 4"
-        ],
-        "Y1S3": [
             "Spring",
             "Science Core Elective Credit Hours: 4",
             "HASS Core Elective Credit Hours: 4",
@@ -2646,13 +2591,10 @@
             "Spring",
             "HASS Core Elective Credit Hours: 4",
             "Free Elective Credit Hours: 4",
-            "Free Elective Credit Hours: 4"
-        ],
-        "Y2S3": [
-            "The Arch Summer Semester*",
-            "PHIL 2400 - Philosophy of Biology Credit Hours: 4",
-            "PHIL 4130 - Philosophy of Science Credit Hours: 4",
-            "PHIL 4310 - Scientific Revolutions Credit Hours: 4"
+            "Free Elective Credit Hours: 4",
+            [
+                "Philosophy of Science ElectiveChoose one: PHIL 2400 - Philosophy of Biology Credit Hours: 4PHIL 4130 - Philosophy of Science Credit Hours: 4PHIL 4310 - Scientific Revolutions Credit Hours: 4"
+            ]
         ],
         "Y3": "Third Year",
         "Y3S1": [
@@ -2665,17 +2607,10 @@
             "Fall OR Spring",
             "Free Elective Credit Hours: 4",
             "Free Elective Credit Hours: 4",
-            "HASS Core Elective Credit Hours: 4"
-        ],
-        "Y3S3": [
-            "Fall",
-            "PHIL 4240 - Ethics Credit Hours: 4",
-            "PHIL 4300 - Environmental Philosophy Credit Hours: 4",
-            "PHIL 4500 - Bioethics Credit Hours: 4",
-            "STSO 4250 - Bioethics Credit Hours: 4",
-            "or\nPHIL 2960 - Ethics of AI Credit Hours: 4\n",
-            "PHIL 2960 - Ethics of AI Credit Hours: 4",
-            "PHIL 2960 - Ethics of AI Credit Hours: 4"
+            "HASS Core Elective Credit Hours: 4",
+            [
+                "Ethics Electivechoose onePHIL 4240 - Ethics Credit Hours: 4PHIL 4300 - Environmental Philosophy Credit Hours: 4PHIL 4500 - Bioethics Credit Hours: 4STSO 4250 - Bioethics Credit Hours: 4or\n\nPHIL 2960 - Ethics of AI Credit Hours: 4\n"
+            ]
         ],
         "Y4": "Fourth Year",
         "Y4S1": [

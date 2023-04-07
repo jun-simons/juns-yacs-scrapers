@@ -72,10 +72,60 @@ for program in programs:
                 program_dict.update({"Y5":"Fifth Year"})
 
             # get array of each semester
-            semester_data = year_data.find_all('div', class_ = 'acalog-core')
+            # year data is a custom leftpad_30
+            semester_data = year_data.find_all('div', recursive=False)
             sem_counter = 0
+            sem_key = ""
             # for each semester:
+            # each semester should be a div with either custom_leftpad_20 or acalog_core
+            course_list = []
             for semester in semester_data:
+                # if it is a custom leftpad 20, it contains extra information pertaining to a semester
+                # thus, we do not want to add a new semetster to the list
+                # therefore, we add the necessary information and continue
+                if 'custom_leftpad_20' in semester.get('class'):
+                    additional_list = []
+
+                    useful_elements = semester.findChildren(recursive=False)
+                    for element in useful_elements:
+                        el_data = element.text
+                         # Remove "(see footnote: etc...)"
+                        # note: if in the future these footnote indications are desired,
+                        # this portion of code may be modified
+                        note_ind = el_data.find('(See')
+                        if note_ind == -1:  ##check alternate forms
+                            note_ind = el_data.find('( See')
+                        if note_ind == -1:
+                            note_ind = el_data.find('(see')
+                        if note_ind == -1:
+                            note_ind = el_data.find('[See')
+
+                        # Remove this any following text from the code
+                        if note_ind != -1:
+                            el_data = el_data[:note_ind]
+
+                        # remove any \n
+                        x= el_data.find('\n')
+                        if (x != -1):
+                            el_data = el_data[0:x] + el_data[x+1:]
+                        # remove any \t
+                        x= el_data.find('\t')
+                        if (x != -1):
+                            el_data = el_data[0:x] + el_data[x+1:]
+
+                            
+                        # print(el_data)
+                        additional_list.append(el_data)
+                    
+                    print(additional_list)
+
+
+                    program_dict[sem_key].append(additional_list) # use previous key
+
+                    continue
+
+                # at this point, we know it is an acalog_core div
+                # thus, this contains information about a semester of courses
                 sem_counter += 1
                 header = semester.find_next('h3')
                 if header == None:
@@ -86,46 +136,48 @@ for program in programs:
                 #concatenate year and semester num (ex: Y2S1 = year 2, semester 1)
                 sem_key = "Y" + str(year) + "S" + str(sem_counter)
                 
-                course_list = []
+                course_list = [] #reset course list
                 course_list.append(text)
 
-                course_blocks = semester.find_all('ul')
-                for block in course_blocks:
-                    courses = block.find_all('li')
-                    for course in courses:
-                        #here, we get the actual course information
-                        course_info = course.text
+                
+                if 'acalog-core' in semester.get('class'):
+                    course_blocks = semester.find_all('ul')
+                    for block in course_blocks:
+                        courses = block.find_all('li')
+                        for course in courses:
+                            #here, we get the actual course information
+                            course_info = course.text
 
-                        # course_info.replace("\n", ' ').replace("\t", " ")
+                            # course_info.replace("\n", ' ').replace("\t", " ")
 
-                        # Remove "(see footnote: etc...)"
-                        # note: if in the future these footnote indications are desired,
-                        # this portion of code may be modified
-                        note_ind = course_info.find('(See')
-                        if note_ind == -1:  ##check alternate forms
-                            note_ind = course_info.find('( See')
-                        if note_ind == -1:
-                            note_ind = course_info.find('(see')
-                        if note_ind == -1:
-                            note_ind = course_info.find('[See')
+                            # Remove "(see footnote: etc...)"
+                            # note: if in the future these footnote indications are desired,
+                            # this portion of code may be modified
+                            note_ind = course_info.find('(See')
+                            if note_ind == -1:  ##check alternate forms
+                                note_ind = course_info.find('( See')
+                            if note_ind == -1:
+                                note_ind = course_info.find('(see')
+                            if note_ind == -1:
+                                note_ind = course_info.find('[See')
 
-                        # Remove this any following text from the code
-                        if note_ind != -1:
-                            course_info = course_info[:note_ind]
+                            # Remove this any following text from the code
+                            if note_ind != -1:
+                                course_info = course_info[:note_ind]
 
-                        # remove any \n
-                        x= course_info.find('\n')
-                        if (x != -1):
-                            course_info = course_info[0:x] + course_info[x+1:]
-                        # remove any \t
-                        x= course_info.find('\t')
-                        if (x != -1):
-                            course_info = course_info[0:x] + course_info[x+1:]
+                            # remove any \n
+                            x= course_info.find('\n')
+                            if (x != -1):
+                                course_info = course_info[0:x] + course_info[x+1:]
+                            # remove any \t
+                            x= course_info.find('\t')
+                            if (x != -1):
+                                course_info = course_info[0:x] + course_info[x+1:]
 
-                        if len(course_info) > 2:
-                            course_list.append(course_info)
-
-                program_dict.update({sem_key:course_list})
+                            if len(course_info) > 2:
+                                course_list.append(course_info)
+                    program_dict.update({sem_key:course_list})
+                    # end else if for acalog core
 
     output_list.append(program_dict)
 
